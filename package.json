@@ -1,0 +1,28 @@
+{
+  "name": "tech-stack-scanner",
+  "version": "1.0.0",
+  "description": "Tech Stack Bulk Scanner – scan git repositories and report their technical structure",
+  "main": "dist/index.js",
+  "bin": {
+    "scanner": "dist/bin/scanner.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bin/scanner.js",
+    "dev": "ts-node src/bin/scanner.ts"
+  },
+  "keywords": ["scanner", "tech-stack", "git", "analyser"],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "consola": "^3.2.3",
+    "fs-extra": "^11.2.0",
+    "p-map": "^7.0.2",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

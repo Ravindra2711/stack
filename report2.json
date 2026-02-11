@@ -1,0 +1,55 @@
+[
+  {
+    "repo": "openclaw",
+    "status": "success",
+    "results": {
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Swift",
+        "Bash"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "ui": [
+        "Lit"
+      ],
+      "ai": [
+        "Ollama"
+      ],
+      "cloud": [
+        "Fly.io"
+      ],
+      "hosting": [
+        "GitHub Pages",
+        "Docker",
+        "Render"
+      ],
+      "ci": [
+        "GitHub Actions",
+        "Dependabot"
+      ],
+      "testing": [
+        "Vitest"
+      ],
+      "builders": [
+        "Vite"
+      ],
+      "linters": [
+        "oxlint"
+      ],
+      "packageManagers": [
+        "pnpm"
+      ],
+      "validation": [
+        "Zod",
+        "TypeBox",
+        "Ajv"
+      ],
+      "tools": [
+        "Node.js"
+      ]
+    }
+  }
+]
